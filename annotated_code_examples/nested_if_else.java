@@ -1,7 +1,7 @@
 /**
  * topics: nested if-Else 
  * subtopics: nested if-ELse 
- * goalDescription: Check Whether a number is Even number less than 10 or Odd.
+ * goalDescription: Check whether a number is an even number and less than 10 or an odd number.
  * source: N/A
  * input: N/A
  * output: 8 is even number less than 10
@@ -11,9 +11,9 @@ public class EvenOdd {
 
 		/**
 		 * domain_model_question: What is the goal of the following block of code?
-		 * logical_step_1: It declares a variable to store a number to check whether it is odd or even.
+		 * logical_step_1: It declares a variable to store a number to check whether it is odd or even and less than 10.
 		 * program_model_question: Can you explain in detail how the goal of the current block of code is actually implemented?
-		 * logical_step_details: A variable num of integer type is declared to store the number to be checked whether is even or odd. The variable num is initialized to the integer value 9.
+		 * logical_step_details: A variable num of integer type is declared to store the number to be checked whether. The variable num is initialized to the integer value 8.
 		 * question_1: Why is variable num declared and what is its data type?
 		 * answer_1: A variable num of integer type is declared to store the number to be checked whether is even or odd.
 		 * question_2: What value is the variable num initialized to?
@@ -38,9 +38,9 @@ public class EvenOdd {
 		/**
 		 * stm_comment: The code block inside the then branch of the if statement executes when the condition evaluates to true, which is the case in this example. 
 		 * question_1: What happens if the condition of the first if statement is true?
-		 * answer_1: The code block inside the if statement checks if the number is less than 10 or not.
+		 * answer_1: The code block inside the first if statement is another if statement that checks if the number is less than 10 or not.
 		 * question_2: What happens if the condition of the second if statement is true?
-		 * answer_2: The code block inside the if statement prints the given prompt with number, i.e. "is even number less than 10"
+		 * answer_2: The code block inside the if statement prints the corresponding message, even or odd, and the number, i.e. "is even number less than 10"
 		 */
 
 		if (num % 2 == 0) {
